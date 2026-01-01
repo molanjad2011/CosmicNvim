@@ -1,121 +1,119 @@
 <h1 align="center">💫 CosmicNvim</h1>
 
 <p align="center">
-  <img alt="Neovim Minimum Version" src="https://img.shields.io/badge/Neovim-0.11.0+-blueviolet.svg?style=flat-square&logo=Neovim&logoColor=white)](https://github.com/neovim/neovim">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/CosmicNvim/CosmicNvim?style=flat-square&logo=Github">
-  <a href="https://discord.gg/EwdrKzVbvJ">
-    <img alt="Discord" src="https://img.shields.io/discord/901609359291854899?style=flat-square&logo=Discord">
-  </a>
-  <a href="https://cosmicnvim.vercel.app/">
-    <img alt="Website" src="https://img.shields.io/website?style=flat-square&up_message=live&label=website&url=https%3A%2F%2Fcosmicnvim.vercel.app%2F">
-  </a>
+<img alt="نسخه حداقلی Neovim" src="https://img.shields.io/badge/Neovim-0.11.0+-blueviolet.svg?style=flat-square&logo=Neovim&logoColor=white)](https://github.com/neovim/neovim">
+<img alt="آخرین کامیت GitHub" src="https://img.shields.io/github/last-commit/CosmicNvim/CosmicNvim?style=flat-square&logo=Github">
+<a href="https://discord.gg/EwdrKzVbvJ">
+<img alt="دیسکورد" src="https://img.shields.io/discord/901609359291854899?style=flat-square&logo=Discord">
+</a>
+<a href="https://cosmicnvim.vercel.app/">
+<img alt="وب‌سایت" src="https://img.shields.io/website?style=flat-square&up_message=live&label=website&url=https%3A%2F%2Fcosmicnvim.vercel.app%2F">
+</a>
 </p>
 
-CosmicNvim is a lightweight and opinionated Neovim config for web development,
-specifically designed to provide a 💫 COSMIC programming experience!
+CosmicNvim یک پیکربندی Neovim سبک و خودرأی برای توسعه وب است که به طور خاص برای ارائه یک تجربه برنامه‌نویسی 💫 COSMIC طراحی شده است!
 
-<img width="2531" alt="Screen Shot 2021-12-19 at 1 25 24 PM" src="https://user-images.githubusercontent.com/3721204/146691358-82a6ff64-1942-4351-ac53-e710a3e48700.png">
+<img width="2531" alt="Screen Shot 2021-12-19 at 1 25 ۲۴ بعد از ظهر" src="https://user-images.githubusercontent.com/3721204/146691358-82a6ff64-1942-4351-ac53-e710a3e48700.png">
 
-## 🚀 Stellar Features
+## 🚀 ویژگی‌های عالی
 
-### Native LSP
+### LSP بومی
 
-Full featured native LSP functionality!
+قابلیت LSP بومی با ویژگی‌های کامل!
 
-- 📘 Go-to definition
-- 🔍 Find references/type def/declaration
-- 💡 Code actions
-- 🚨 Statusline diagnostics
-- 🔧 Formatting/linting thanks to [null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim)
+- 📘 تعریف برو به
+- 🔍 یافتن ارجاعات/نوع تعریف/اعلان
+- 💡 اقدامات کد
+- 🚨 تشخیص وضعیت خط
+- 🔧 قالب‌بندی/لینت‌بندی به لطف [null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim)
 
-#### Additional features
+#### ویژگی‌های اضافی
 
-- Custom rename and code action popups via [Cosmic-UI](https://github.com/CosmicNvim/cosmic-ui)
-- Amazing default theme via [tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
-- UI enhancements via [noice](https://github.com/folke/noice.nvim)
-- Enhanced syntax highlighting via [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
-- Dashboard via [dashboard-nvim](https://github.com/glepnir/dashboard-nvim)
-- Custom statusline via [lualine](https://github.com/nvim-lualine/lualine.nvim)
-- Explore files via [nvim-tree](https://github.com/kyazdani42/nvim-tree.lua)
-- Fuzzy finder via [Telescope](https://github.com/nvim-telescope/telescope.nvim)
-- Floating terminal with [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)
-- Auto LSP/formatter/linter installation via [mason.nvim](https://github.com/williamboman/mason.nvim)
-- Autocompletion via [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
-- Snippet support via [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
-- Session management via [auto-session](https://github.com/rmagatti/auto-session)
-- Additional custom highlighting
-- Floating windows for references, renaming, diagnostics, code actions and more!
+- پنجره‌های تغییر نام سفارشی و اقدام کد از طریق [Cosmic-UI](https://github.com/CosmicNvim/cosmic-ui)
+- قالب پیش‌فرض شگفت‌انگیز از طریق [tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
+- بهبود رابط کاربری از طریق [noice](https://github.com/folke/noice.nvim)
+- هایلایت سینتکس بهبود یافته از طریق [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- داشبورد از طریق [dashboard-nvim](https://github.com/glepnir/dashboard-nvim)
+- خط وضعیت سفارشی از طریق [lualine](https://github.com/nvim-lualine/lualine.nvim)
+- کاوش فایل‌ها از طریق [nvim-tree](https://github.com/kyazdani42/nvim-tree.lua)
+- یابنده فازی از طریق [Telescope](https://github.com/nvim-telescope/telescope.nvim)
+- ترمینال شناور با [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)
+- نصب خودکار LSP/formatter/linter از طریق [mason.nvim](https://github.com/williamboman/mason.nvim)
+- تکمیل خودکار از طریق [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
+- پشتیبانی از قطعه کد از طریق [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
+- مدیریت نشست از طریق [auto-session](https://github.com/rmagatti/auto-session)
+- هایلایت سفارشی اضافی
+- پنجره‌های شناور برای ارجاعات، تغییر نام، تشخیص، اقدامات کد و موارد دیگر!
 
-_While CosmicNvim is geared specifically toward TypeScript/JavaScript development, it should be able to provide a great
-experience with any LSP supported language._
+_در حالی که CosmicNvim به طور خاص برای توسعه TypeScript/JavaScript طراحی شده است، باید بتواند تجربه‌ای عالی با هر زبان پشتیبانی شده توسط LSP ارائه دهد._
 
-## 🛠 Installation
+## 🛠 نصب
 
-### Quick guide
+### راهنمای سریع
 
-#### Prerequisites
+#### پیش‌نیازها
 
 - Neovim (+0.11.0) nightly
 - [Node.js](https://nodejs.org/en/)
 - [prettierd](https://github.com/fsouza/prettierd)
 
-#### Install
+#### نصب
 
 ```bash
-  # move to config dir
-  cd ~/.config
-  # back up current config
-  cp -r nvim nvim.backup
-  # clone repository
-  git clone git@github.com:CosmicNvim/CosmicNvim.git nvim
-  # open nvim and install plugins
-  nvim
+# انتقال به دایرکتوری پیکربندی
+cd ~/.config
+# پشتیبان‌گیری از پیکربندی فعلی
+cp -r nvim nvim.backup
+# کلون کردن مخزن
+git clone git@github.com:CosmicNvim/CosmicNvim.git nvim
+# باز کردن nvim و نصب افزونه‌ها
+nvim
 ```
 
-By default, this will assume the Cosmic git directory is placed at `vim.fn.stdpath('config')`, i.e. `~/.config/nvim`.
-If you are symlinking your pulled repo to `~/.config/nvim`, you must define the shell environment variable
-`COSMICNVIM_INSTALL_DIR` that points to your installation.
+به طور پیش‌فرض، فرض بر این است که دایرکتوری Cosmic git در `vim.fn.stdpath('config')` قرار دارد، یعنی `~/.config/nvim`.
 
-Additional CosmicNvim installation [details](https://github.com/CosmicNvim/CosmicNvim/wiki/Installation).
+اگر مخزن استخراج شده خود را به `~/.config/nvim` پیوند نمادین می‌دهید، باید متغیر محیطی shell ``COSMICNVIM_INSTALL_DIR` را که به نصب شما اشاره می‌کند، تعریف کنید.
 
-Additional LSP server installation [details](https://github.com/CosmicNvim/CosmicNvim/wiki/Installing-LSP-servers).
+نصب اضافی CosmicNvim [جزئیات](https://github.com/CosmicNvim/CosmicNvim/wiki/Installation).
 
-CosmicNvim uninstallation [details](https://github.com/CosmicNvim/CosmicNvim/wiki/Uninstalling-CosmicNvim).
+نصب اضافی سرور LSP [جزئیات](https://github.com/CosmicNvim/CosmicNvim/wiki/Installing-LSP-servers).
 
-## 🎨 Theming
+حذف CosmicNvim [جزئیات](https://github.com/CosmicNvim/CosmicNvim/wiki/Uninstalling-CosmicNvim).
 
-_New documentation coming soon!_
+## 🎨 قالب‌بندی
 
-## ⚙️ Configuration
+_به‌زودی مستندات جدید منتشر می‌شود!_
 
-[General Info](./lua/cosmic/config/examples/readme.md)
+## ⚙️ پیکربندی
 
-[Cosmic configurations](./lua/cosmic/config/examples/config.lua)
+[اطلاعات عمومی](./lua/cosmic/config/examples/readme.md)
 
-[Add additional vim options](./lua/cosmic/config/examples/editor.lua)
+[پیکربندی‌های Cosmic](./lua/cosmic/config/examples/config.lua)
 
-## ✨ Cosmic Commands
+[افزودن گزینه‌های بیشتر vim](./lua/cosmic/config/examples/editor.lua)
 
-### Update CosmicNvim
+## ✨ دستورات Cosmic
 
-Updates CosmicNvim to the latest version
+### به‌روزرسانی CosmicNvim
 
-```vimcommand
+CosmicNvim را به‌روز می‌کند آخرین نسخه
+
+```دستور vim
 :CosmicUpdate
 ```
 
-## 🗺 Default Mappings
+## 🗺 نگاشت‌های پیش‌فرض
 
-[File navigation](./lua/cosmic/plugins/telescope/init.lua)
+[پیمایش فایل](./lua/cosmic/plugins/telescope/init.lua)
 
-[File explorer](./lua/cosmic/plugins/nvim-tree/init.lua)
+[کاوشگر فایل](./lua/cosmic/plugins/nvim-tree/init.lua)
 
-[Terminal](./lua/cosmic/plugins/terminal/mappings.lua)
+[ترمینال](./lua/cosmic/plugins/terminal/mappings.lua)
 
 [LSP](./lua/cosmic/lsp/mappings.lua)
 
-[Other](./lua/cosmic/core/mappings.lua)
+[سایر](./lua/cosmic/core/mappings.lua)
 
-## 📷 Screenshots
+## 📷 تصاویر صفحه
 
-[See more](https://github.com/CosmicNvim/CosmicNvim/wiki/Screenshots)
+[بیشتر ببینید](https://github.com/CosmicNvim/CosmicNvim/wiki/Screenshots)
